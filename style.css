@@ -1,0 +1,35 @@
+body {
+    margin-left: 10%;
+    margin-right: 90%;
+    width: 45em;
+}
+header b,
+footer b{
+    line-height: 35px;
+}
+header {
+    overflow: hidden;
+    margin-bottom: 2em;
+}
+.headerLeft {
+    float: left;
+}
+.headerPhoto {
+    float: right;
+}
+.bodyResume {
+    margin-top: auto;
+    overflow: hidden;
+    margin-bottom: 2em;
+}
+.zebra {
+    list-style: none;
+    border-left: 10px solid gray;
+    padding: 0;
+}
+.zebra li {padding: 10px;}
+.zebra li:nth-child(odd) {background: white}
+.zebra li:nth-child(even) {background: lightgray}
+footer {
+    margin-bottom: 2em;
+}
